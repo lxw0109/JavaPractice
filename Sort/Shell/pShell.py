@@ -12,6 +12,7 @@ def shellSort(array):
     while INC:
         for i in xrange(INC, length):
             target = array[i]
+            #insert sort: from tail to head.
             for j in xrange(i, INC-1, -INC):
                 if array[j - INC] > target:
                     array[j] = array[j - INC]
@@ -43,7 +44,6 @@ def main():
     shellSort(numbers)
     print(numbers)
 
-    
 
 if __name__ == '__main__':
     main()
