@@ -30,7 +30,7 @@ public class SimpleNotepad extends JFrame {
 	private Font f = new Font("sanserif", Font.PLAIN, 12);
 
 	// 菜单栏成员属性声明
-	private JMenuBar mb; // 菜单棒
+	private JMenuBar mb; // 菜单栏
 	private JMenu fileMenu; // 文件菜单
 	private JMenu editMenu; // 编辑菜单
 	private JMenu formatMenu; // 格式菜单
@@ -41,7 +41,7 @@ public class SimpleNotepad extends JFrame {
 			cancleWrapStyleWord;// 格式菜单的第二级菜单
 
 	// 工具栏成员属性声明
-	private JToolBar toolBar; // 工具棒
+	private JToolBar toolBar; // 工具栏
 	private JButton b1, b2, b3, b4, b5; // 声明5个按钮，分别为：“打开”、“保存”、“复制”、“剪切”、“粘贴”
 
 	// 弹出式菜单属性声明
