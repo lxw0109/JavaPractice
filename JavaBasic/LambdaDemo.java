@@ -21,15 +21,15 @@ x -> 2* x
 public class LambdaDemo{
 	public static void main(String[] args){
 		String[] atp = {"Rafael Nadal",
-						"Novak Djokovic", 
-						"Stanislas Wawrinka",
-						"David Ferrer",
-						"Roger Federer",
-						"Andy Murray",
-						"Tomas Berdych",
-						"Juan Martin",
-						"Del Potro"
-						};
+				"Novak Djokovic", 
+				"Stanislas Wawrinka",
+				"David Ferrer",
+				"Roger Federer",
+				"Andy Murray",
+				"Tomas Berdych",
+				"Juan Martin",
+				"Del Potro"
+				};
 		List<String> players = Arrays.asList(atp);
 
 		//Normal for()
@@ -45,19 +45,19 @@ public class LambdaDemo{
 		players.forEach(System.out::println);
 
 		/*
-		//Demo 3: ÔÚGUIÖÐ£¬Ê¹ÓÃ"lambda"À´´úÌæ"ÄäÃûÄÚ²¿Àà"
-		// Ê¹ÓÃÄäÃûÄÚ²¿Àà  
+		//Demo 3: 在GUI中，使用"lambda"来代替"匿名内部类"
+		// 使用匿名内部类  
 		btn.setOnAction(new EventHandler<ActionEvent>() {  
-          @Override  
-          public void handle(ActionEvent event) {  
-              System.out.println("Hello World!");   
-          }  
-    	});  
-		// »òÕßÊ¹ÓÃ lambda expression  
+	          	@Override  
+	          	public void handle(ActionEvent event) {  
+	          		System.out.println("Hello World!");   
+	          	}
+    		}); 
+		// 或者使用 lambda expression  
 		btn.setOnAction(event -> System.out.println("Hello World!"));  
 		*/
 	}
 }
 /*Reference:
-Java Lambda±í´ïÊ½ÈëÃÅ: http://blog.csdn.net/renfufei/article/details/24600507
+Java Lambda表达式入门: http://blog.csdn.net/renfufei/article/details/24600507
 */
